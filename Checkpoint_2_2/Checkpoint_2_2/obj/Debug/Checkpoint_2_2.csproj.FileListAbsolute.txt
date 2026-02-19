@@ -1,0 +1,7 @@
+E:\Study\async c#\Checkpoint_2_2\Checkpoint_2_2\bin\Debug\Checkpoint_2_2.exe.config
+E:\Study\async c#\Checkpoint_2_2\Checkpoint_2_2\bin\Debug\Checkpoint_2_2.exe
+E:\Study\async c#\Checkpoint_2_2\Checkpoint_2_2\bin\Debug\Checkpoint_2_2.pdb
+E:\Study\async c#\Checkpoint_2_2\Checkpoint_2_2\obj\Debug\Checkpoint_2_2.csproj.AssemblyReference.cache
+E:\Study\async c#\Checkpoint_2_2\Checkpoint_2_2\obj\Debug\Checkpoint_2_2.csproj.CoreCompileInputs.cache
+E:\Study\async c#\Checkpoint_2_2\Checkpoint_2_2\obj\Debug\Checkpoint_2_2.exe
+E:\Study\async c#\Checkpoint_2_2\Checkpoint_2_2\obj\Debug\Checkpoint_2_2.pdb
