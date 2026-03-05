@@ -1,0 +1,27 @@
+﻿<Window x:Class="EmployeeManagement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployeeManagement"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,19,-36,-46">
+        <DataGrid x:Name="EmployeesDataGrid" d:ItemsSource="{d:SampleData ItemCount=0}" Margin="0,0,39,115" Grid.Row="0"  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}" Width="*"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding FirstName}" Width="*"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}" Width="*"/>
+                <DataGridTextColumn Header="Адрес" Binding="{Binding Address}" Width="*"/>
+                <DataGridTextColumn Header="Отдел" Binding="{Binding Department}" Width="*"/>
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding BirthDate, StringFormat=\{0:dd.MM.yyyy\}}" Width="120"/>
+                <DataGridTextColumn Header="О себе" Binding="{Binding AboutMe}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="Добавить" Click="AddButton_Click" HorizontalAlignment="Left" Height="36" Margin="36,352,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button Content="Редактировать" Click="EditButton_Click"  HorizontalAlignment="Left" Height="36" Margin="203,352,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button Content="Удалить" Click="DeleteButton_Click"  HorizontalAlignment="Left" Height="36" Margin="377,352,0,0" VerticalAlignment="Top" Width="130"/>
+
+    </Grid>
+</Window>
